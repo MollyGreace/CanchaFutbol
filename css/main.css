@@ -1,5 +1,5 @@
 /*Formato y ubicación del ícono pelota*/
-.icon-dribbble:before {
+.icon-dribbble1:before {
   color: white;
   position: absolute;
   top: 7em;
@@ -9,15 +9,15 @@
 .icon-dribbble2:before {
   color: white;
   position: absolute;
-  top: 7em;
-  left: 30%;
+  left: 58%;
+  top: 4em;
 }
 
 .icon-dribbble3:before {
   color: white;
   position: absolute;
-  top: 7em;
-  left: 40%;
+  top: 17em;
+  left: 85%;
 }
 
 body {
