@@ -1,12 +1,87 @@
 /*Formato y ubicación del ícono pelota*/
 .icon-dribbble:before {
+  color: white;
+  position: absolute;
+  top: 7em;
+  left: 10%;
+}
 
+.icon-dribbble2:before {
+  color: white;
+  position: absolute;
+  top: 7em;
+  left: 30%;
+}
+
+.icon-dribbble3:before {
+  color: white;
+  position: absolute;
+  top: 7em;
+  left: 40%;
+}
+
+body {
+  margin-top :30px;
+  background: green;
+  padding: 30px;
+  position: relative;
+}
+.fondo {
+  background: green;
+  padding: 3em 3em 8em 3em;
+  position: relative;
+  border: 2px solid white;
 }
 
 h1 {
   text-align: center;
 }
 
-.general {
+/*Estilos de arco izquierdo*/
+.bow1 {
+  border: 2px solid white;
+  position: absolute;
+  padding: 5em 3em;
+  left: 0;
+  top: 90px;
+  box-sizing: border-box;
+  width: 70px;
+  height: 200px;
   background-color: green;
+}
+
+/*Estilos de arco derecho*/
+.bow2 {
+  background-color: green;
+  border: 2px solid white;
+  box-sizing: border-box;
+  height: 200px;
+  position: absolute;
+  padding: 5em 3em;
+  right: 0;
+  top: 90px;
+  width: 70px;
+}
+
+.circle {
+  border: 2px solid white;
+  border-radius: 60%;
+  margin-left: 45%;
+  margin-top: 70px;
+  padding: 5em 3em;
+  width: 65px;
+}
+.ball1 {
+  border: 2px solid white;
+  border-radius: 60%;
+  height: 0px;
+  position: absolute;
+  padding: 1em 1em;
+  width: 10px;
+}
+.ball2 {
+  
+}
+.ball3 {
+  
 }
